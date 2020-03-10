@@ -2,7 +2,7 @@
 
 # Testing React
 
-## Pokemon (cont.)
+### Repos
 
 Starter Project Repo: https://github.com/LambdaSchool/Space-X-Web-GuidedProject
 
