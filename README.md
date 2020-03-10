@@ -5,9 +5,10 @@
 ## Pokemon (cont.)
 
 Starter Project Repo: https://github.com/LambdaSchool/Space-X-Web-GuidedProject
+
 Solution Project Repo: (This repo 😉)
 
-#### Testing prop changes
+### Testing prop changes
 
 1. Look through the app with the students. Make sure you and they understand where the data is, where it's being fetched, where the data is being passed to, etc.
 
@@ -111,7 +112,7 @@ test("Missions list shows data when rerendered with new missions data", () => {
 
 At this point you can ask something like "What other assertions could we write here?"
 
-#### Using Mocks
+### Using Mocks
 
 I use the TK to explain the importance of mocks. The example with the UUID library is a great example to show the why. I also explain that another use case for mocks is for async operations.
 
@@ -196,7 +197,7 @@ test("App fetches missions data and render data", () => {
 
 ... now what???
 
-#### Testing Async API calls
+### Testing Async API calls
 
 Now that we have mocked the function, we have to test the component after the API call has returned
 
