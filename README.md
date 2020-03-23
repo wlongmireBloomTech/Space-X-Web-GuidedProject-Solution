@@ -132,6 +132,8 @@ I use the TK to explain the importance of mocks. The example with the UUID libra
 - One function to point out is `mockResolvedValueOnce`. This is a function we can call inside each test to tell the function what data is _supposed_ to be returned by the database.
 - We need to "seed" this with mocked data as well. Add this array outside of your tests, then pass it into the `mockResolvedValueOnce` function:
 
+_Note: If you want to show a really hard to find bug, then you can mock this data like the other mock data (as an array, without the object or the data property. Console log in the component where the data is being set to state and show students that we are not mocking the correct shape for the data_
+
 ```js
 const missions = {
   data: [
