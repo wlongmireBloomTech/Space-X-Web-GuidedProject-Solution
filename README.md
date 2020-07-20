@@ -12,9 +12,9 @@ Solution Project Repo: (This repo 😉)
 
 1. Look through the app with the students. Make sure you and they understand where the data is, where it's being fetched, where the data is being passed to, etc.
 
-2. Since we want to test prop changes, we need to test a file that has props. We'll start by testing the `MissionForm` component.
+2. Since we want to test prop changes, we need to test a component that has props. We'll start by testing the `MissionForm` component.
 
-- create a `MissionForm.text.js` file
+- create a `MissionForm.test.js` file
 - import React, import { render }, and import the component
 - Start building the first test (Note that we render the component and pass in props, just like we would in a parent component):
 
