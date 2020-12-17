@@ -25,7 +25,7 @@ export default function App() {
   };
   return (
     <div className="App">
-      <h1>Space Missions List of Missions list</h1>
+      <h1>Space Missions List</h1>
       <MissionForm getData={getData} isFetchingData={isFetchingData} />
       <MissionsList error={error} missions={missions} />
     </div>

@@ -11,12 +11,15 @@ const MissionsList = props => {
       ) : (
         <div data-testid="mission-list">
           {props.missions.map(mission => (
-            <div
-              className="mission"
-              data-testid="mission"
-              key={mission.mission_id}
-            >
-              {mission.mission_name}
+            <div>
+              <div
+                className="mission"
+                data-testid="mission"
+                key={mission.mission_id}
+              >
+                {mission.mission_name}
+              </div>
+              <p>{mission.description}</p>
             </div>
           ))}
         </div>
