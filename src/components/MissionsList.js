@@ -12,6 +12,7 @@ const MissionsList = props => {
         <div data-testid="mission-list">
           {props.missions.map(mission => (
             <div>
+              <h3>Stuff up in here</h3>
               <div
                 className="mission"
                 data-testid="mission"
