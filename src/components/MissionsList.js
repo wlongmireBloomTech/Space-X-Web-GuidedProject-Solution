@@ -12,7 +12,6 @@ const MissionsList = props => {
         <div data-testid="mission-list">
           {props.missions.map(mission => (
             <div>
-              <h3>THis is new!!</h3>
               <div
                 className="mission"
                 data-testid="mission"
@@ -20,7 +19,7 @@ const MissionsList = props => {
               >
                 {mission.mission_name}
               </div>
-              <p>{mission.description}</p>
+              {/* <p>{mission.description}</p> */}
             </div>
           ))}
         </div>
