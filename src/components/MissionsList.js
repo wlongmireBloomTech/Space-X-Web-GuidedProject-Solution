@@ -19,7 +19,7 @@ const MissionsList = props => {
               >
                 {mission.mission_name}
               </div>
-              {/* <p>{mission.description}</p> */}
+              <p>{mission.description}</p>
             </div>
           ))}
         </div>
