@@ -18,6 +18,7 @@ const MissionsList = props => {
                 key={mission.mission_id}
               >
                 {mission.mission_name}
+                <p>{mission.description}</p>
               </div>
             </div>
           ))}

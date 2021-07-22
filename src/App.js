@@ -23,9 +23,11 @@ export default function App() {
         setError(err.message);
       });
   };
+  
   return (
     <div className="App">
       <h1>Space Missions List</h1>
+      <p>this is our missions list</p>
       <MissionForm getData={getData} isFetchingData={isFetchingData} />
       <MissionsList error={error} missions={missions} />
     </div>
