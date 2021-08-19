@@ -1,7 +1,6 @@
 import React from "react";
 
 const MissionsList = props => {
-  console.log(props.missions);
   return (
     <section className="missions-list">
       {props.error ? (
@@ -18,7 +17,6 @@ const MissionsList = props => {
                 key={mission.mission_id}
               >
                 {mission.mission_name}
-                <p>{mission.description}</p>
               </div>
             </div>
           ))}
