@@ -3,7 +3,6 @@ import axios from "axios";
 export const fetchMissions = () => {
   return axios
     .get("https://api.spacexdata.com/v3/missions")
-    // .get("http://localhost:3000/api/smurfs")
     .then(res => {
       console.log("response: ", res);
       return res;

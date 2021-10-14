@@ -1,8 +1,6 @@
 import React from "react";
 
 const MissionsList = props => {
-  console.log(props.missions);
-
   return (
     <section className="missions-list">
       {props.error ? (
@@ -11,8 +9,9 @@ const MissionsList = props => {
         </div>
       ) : (
         <div data-testid="mission-list">
+          <ul>
           {props.missions.map(mission => (
-            <div>
+            <li>
               <div
                 className="mission"
                 data-testid="mission"
@@ -20,9 +19,9 @@ const MissionsList = props => {
               >
                 {mission.mission_name}
               </div>
-              <p>{mission.description}</p>
-            </div>
+            </li>
           ))}
+          </ul>
         </div>
       )}
     </section>
