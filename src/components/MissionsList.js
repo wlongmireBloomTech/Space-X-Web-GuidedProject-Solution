@@ -17,7 +17,7 @@ const MissionsList = props => {
                 data-testid="mission"
                 key={mission.mission_id}
               >
-                {mission.mission_name}
+                {mission.mission_name} - Here
               </div>
             </li>
           ))}
