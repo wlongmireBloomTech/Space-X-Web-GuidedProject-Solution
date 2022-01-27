@@ -11,13 +11,15 @@ const MissionsList = props => {
         <div data-testid="mission-list">
           <ul>
           {props.missions.map(mission => (
-            <li>
+            <li key={mission.mission_id}>
               <div
                 className="mission"
                 data-testid="mission"
                 key={mission.mission_id}
               >
-                {mission.mission_name}
+                <a href={mission.website}>{mission.mission_name}</a>
+                <p>{mission.description}</p>
+                <a href={mission.twitter} target="_blank">twitter</a>
               </div>
             </li>
           ))}
