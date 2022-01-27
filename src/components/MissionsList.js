@@ -17,9 +17,9 @@ const MissionsList = props => {
                 data-testid="mission"
                 key={mission.mission_id}
               >
-                <a href={mission.website}>{mission.mission_name}</a>
+                <a target="_blank" rel="noopener noreferrer" href={mission.website}>{mission.mission_name}</a>
                 <p>{mission.description}</p>
-                <a href={mission.twitter} target="_blank">twitter</a>
+                <a href={mission.twitter} target="_blank" rel="noopener noreferrer">twitter</a>
               </div>
             </li>
           ))}

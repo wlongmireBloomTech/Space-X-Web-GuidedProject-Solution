@@ -5,7 +5,6 @@ export const fetchMissions = () => {
     .get("https://api.spacexdata.com/v3/missions")
     // .get("https://localhost:3333/smurfs")
     .then(res => {
-      console.log("response: ", res);
       return res;
     })
     .catch(err => {
